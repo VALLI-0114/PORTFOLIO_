@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pravi — Pravallika Kundum</title>
+  <meta name="description" content="Pravallika Kundum — AI/ML & Full-Stack Engineer. Projects, research, experience, skills and notes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Outfit:wght@300;400;500;600&family=Patrick+Hand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+  <!-- hand-drawn edge filters -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="wobble"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="torn"><feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="3" seed="9"/><feDisplacementMap in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </svg>
+
+  <a class="logo" href="#/" aria-label="Home">Pravi</a>
+  <nav class="nav" id="nav" aria-label="Main"></nav>
+
+  <div class="items" id="items"></div>
+  <main class="page" id="page"></main>
+
+  <script src="app.js?v=8"></script>
+</body>
+</html>
